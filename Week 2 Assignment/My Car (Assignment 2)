@@ -1,0 +1,7 @@
+var myCar = {
+	"Colour": "Dark Maroon",
+	"Seats": 4,
+	"Type": "Sedan",
+	"Electric": "No",
+	"Expensive": false
+}
