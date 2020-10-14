@@ -1,0 +1,25 @@
+myTable = {
+    "Material": "Wood",
+    "Colour": "Dark Brown",
+    "Length": 44.569
+}
+
+myApartment = {
+    "Rooms": 3,
+    "Area": ["1100", "sqft"],
+    "Floor": "3rd Floor",
+    "Elevator": True
+}
+
+myBottle = {
+    "Material": "Glass",
+    "Capacity": ["1000", "ml"],
+    "Colour": "Transparent",
+    "Lid": True
+}
+
+myToothbrush = {
+    "Brand": "Xiaomi",
+    "Colour": "White",
+    "Type": "Electric"
+}

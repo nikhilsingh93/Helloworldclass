@@ -1,0 +1,31 @@
+# Templatizing Intros for SVA batch of 2022
+print ("Welcome to SVA!")
+print ("Answer the questions below to generate your introduction.")
+print ("-----------------------------------")
+
+# variables containing all of your story info
+yourName = raw_input("Enter your first name: ")
+yourAge = raw_input("What is your age?: ")
+birthPlace = raw_input("What is your place of birth?: ")
+currentEducation = raw_input("What is your highest education so far?: ")
+lastMajor = raw_input("What was your last major in?: ")
+favDesigner = raw_input("One famous designer that you admire the most?: ")
+musicGenre1 = raw_input("What's your first favourite music genre?: ")
+musicGenre2 = raw_input("What's your second favourite music genre?: ")
+
+# this is the story. it is made up of strings and variables.
+# the \ at the end of each line let's the computer know our string is a long one
+# (a whole paragraph!) and we want to continue more code on the next line. 
+# play close attention to the syntax!
+
+svaIntro = "Hello, I'm " + yourName + ". I am " + yourAge + " years old and was born in " \
++ birthPlace + ". I have a " + currentEducation + " degree in " + lastMajor + ". " \
+"My favourite all time designer is " + favDesigner + ". My favourite music genres \
+are" + musicGenre1 + " and " + musicGenre2
+
+# finally we print the story
+# Hello, I'm Nikhil. I am 27 years old and was born in Uttar Pradesh, India. I have a bachelor's degree 
+in Electronics Engineering. My favourite all time designer is Dieter Rams. My favourite music genres 
+are Jazz and Electronica.
+
+print (story)
